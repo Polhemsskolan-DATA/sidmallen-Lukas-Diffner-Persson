@@ -1,3 +1,4 @@
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=11622909&assignment_repo_type=AssignmentRepo)
 # Inlämningsuppgift: Sidmallen
 Gör en mall för en enkel (inte simpel) hemsida med **HTML** och **CSS** kod. Denna mall kan du spara och återanvända till senare projekt, eller för att snabbt komma igång med en ny hemsidelösning.
 
