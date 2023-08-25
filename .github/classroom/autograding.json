@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "Index file must exist",
+      "setup": "",
+      "run": "find . -name index.html | grep .",
+      "input": "",
+      "output": "./index.html",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "css file missing",
+      "setup": "",
+      "run": "find . -name *.css | grep .",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 0
+    },
+    {
+      "name": "subfolder for images is missing",
+      "setup": "",
+      "run": "find . -type d | grep .",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 0
+    },
+    {
+      "name": "no html file is using images",
+      "setup": "",
+      "run": "cat *.html | grep '<img'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 0
+    },
+    {
+      "name": "html files are missing comments",
+      "setup": "",
+      "run": "cat *.html | grep '<!--'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 0
+    },
+    {
+      "name": "css  files are missing comments",
+      "setup": "",
+      "run": "cat *.css | grep '/*'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 0
+    },
+    {
+      "name": "No html file is using headlines",
+      "setup": "",
+      "run": "cat *.html | grep '<h'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 0
+    },
+    {
+      "name": "Titel tag is empty",
+      "setup": "",
+      "run": "cat *.html | grep '<title></title>'",
+      "input": "",
+      "output": "<title></title>",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 0
+    },
+    {
+      "name": "Filenames must NOT contain space",
+      "setup": "",
+      "run": "find . -name \"* *\" | grep .",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "No html file is using links",
+      "setup": "",
+      "run": "cat *.html | grep '<a'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 0
+    }
+  ]
+}
