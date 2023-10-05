@@ -1,0 +1,89 @@
+/*Author Lukas Diffner-Persson EEdata2*/
+body { /*detta är hur bakrunden ser ut*/
+    background: rgb(195, 145, 220);
+    color: rgb(0, 0, 0);
+    text-align:center;
+}
+
+.kys { /*detta är vad som styr hur titlen kill yourself ser ut*/
+    background-color: rgb(130, 24, 44);
+    color:#f5f5f5;
+    border: 5px solid rgb(196, 8, 86);
+    font-size: larger;
+    text-align: center;
+    width: 1500px;
+    margin: auto;
+}
+.rightnow{ /*detta är vad som styr hur texten right now ser ut*/
+    background-color:rgb(0, 0, 180);
+    color: #f5f5f5;
+    border: 5px solid rgb(0, 0, 255);
+    text-align: center;
+    font-size:x-large;
+    width: 1250px;
+    margin: auto;
+    }
+
+.b { /*detta är vad som styr hur lorem ipsum texten ser ut*/
+    width: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('bilder/old\ paper2.jpg');
+    text-align: left;
+    margin: auto;
+    font-size: larger;
+    font-style: italic;
+    text-shadow: white 0 0 5px, 0 0 5px white;
+    display: none;
+    border: whitesmoke;
+    border-style: solid;
+}
+.smoke{ /*detta är vad som styr hur bilden på soldier ser ut */
+    border: 5px solid rgb(248, 248, 248);
+    align-self: center;
+    
+}
+
+.deargod{
+    font-size: larger; /*detta är vad som styr hur lenken till videon ser ut*/
+    color: rgb(0, 0, 0);
+}
+.please{
+    background-color: rgb(255, 233, 31);
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+.conga{
+   float: right;
+}
+.conga2{
+float: left;
+  }
+  .button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: white;
+    color: black;
+    border: 3px solid #4CAF50;
+  }
+  
+  .button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  .border
+  {
+    border: 5px #4CAF50;
+
+  }
