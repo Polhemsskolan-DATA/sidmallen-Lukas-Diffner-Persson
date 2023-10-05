@@ -11,7 +11,8 @@ body { /*detta är hur bakrunden ser ut*/
     border: 5px solid rgb(196, 8, 86);
     font-size: larger;
     text-align: center;
-    width: 1500px;
+    width: auto;
+    max-width: 1500px;
     margin: auto;
 }
 .rightnow{ /*detta är vad som styr hur texten right now ser ut*/
@@ -20,7 +21,8 @@ body { /*detta är hur bakrunden ser ut*/
     border: 5px solid rgb(0, 0, 255);
     text-align: center;
     font-size:x-large;
-    width: 1250px;
+    width: auto;
+    max-width: 1250px;
     margin: auto;
     }
 
@@ -35,29 +37,40 @@ body { /*detta är hur bakrunden ser ut*/
     font-style: italic;
     text-shadow: white 0 0 5px, 0 0 5px white;
     display: none;
-    border: whitesmoke;
-    border-style: solid;
+    padding:10px;
+    max-width: 100%;
+   
 }
 .smoke{ /*detta är vad som styr hur bilden på soldier ser ut */
     border: 5px solid rgb(248, 248, 248);
     align-self: center;
-    
+    max-width: 100%;
+    height: auto;
 }
 
 .deargod{
     font-size: larger; /*detta är vad som styr hur lenken till videon ser ut*/
     color: rgb(0, 0, 0);
+    max-width: 100%;
+    width: auto;
 }
 .please{
     background-color: rgb(255, 233, 31);
     font-size: large;
     font-family: 'Times New Roman', Times, serif;
+    max-width: 100%;
+   width: auto;
 }
 .conga{
    float: right;
+   height: auto;
+   max-width: 100%;
+   width: auto;
 }
 .conga2{
 float: left;
+max-width: 100%;
+   width: auto;
   }
   .button {
     border: none;
@@ -67,23 +80,32 @@ float: left;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: auto;
     transition-duration: 0.4s;
     cursor: pointer;
+    max-width: 100%;
+    width: auto;
+    
   }
   
   .button1 {
     background-color: white;
     color: black;
     border: 3px solid #4CAF50;
+    max-width: 100%;
+    width: auto;
   }
   
   .button1:hover {
     background-color: #4CAF50;
     color: white;
+    max-width: 100%;
+    width: auto;
   }
   .border
   {
     border: 5px #4CAF50;
-
+    max-width: 100%;
+    width: auto;
   }
+  

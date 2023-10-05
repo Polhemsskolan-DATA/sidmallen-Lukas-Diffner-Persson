@@ -9,6 +9,8 @@
 
     <link rel="stylesheet" href="style.css">
     
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
   </head>
 
 
@@ -34,9 +36,15 @@
 <!--<script src="enkel.js"></script> <!-- Exempel till eleven på ett Javascript bibliotek. -->
 
 <h2> ↓Hey Also Click This↓ </h2>
-<button type="button" class="button button1"
-onclick="document.getElementById('bibel').style.display = 'block'">
+<button id="btn1" type="button" class="button button1"
+onclick="text1()">
+
 <strong>Please</strong></button>
+<button style="display: none" id="btn2" type="button" class="button button1"
+onclick="text2()">
+
+<strong>Please</strong></button>
+
 
 
 <p id="demo"></p>
@@ -51,6 +59,29 @@ onclick="document.getElementById('bibel').style.display = 'block'">
 <img src="bilder/conga.gif" class="conga">
 <img src="bilder/heavy.gif" class="conga2">
 
+<script>
+  function text1() {
+    document.getElementById('bibel').style.display = 'block';
+    document.getElementById('btn1').style.display = 'none';
+    document.getElementById('btn2').style.display = 'inline-block';
+  }
+
+  function text2() {
+    document.getElementById('bibel').style.display = 'none';
+    document.getElementById('btn1').style.display = 'inline-block';
+    document.getElementById('btn2').style.display = 'none';
+  }
+</script>
+<!--button onclick="myFunction()">Try it</button>
+<div id="myDIV">
+  This is a DIV element.
+  </div>
+  <!script>
+    function myFunction() {
+       var element = document.getElementById("myDIV");
+       element.classList.toggle("button");
+    }
+    </script-->
 </body>
 </html>
 
