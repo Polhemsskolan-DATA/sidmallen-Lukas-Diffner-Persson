@@ -17,6 +17,7 @@ body { /*detta är hur bakrunden ser ut*/
     width: auto;
     max-width: 1500px;
     margin: auto;
+    border-radius: 15px;   
 }
 .rightnow{ /*detta är vad som styr hur texten right now ser ut*/
     background-color:rgb(0, 0, 180);
@@ -27,6 +28,7 @@ body { /*detta är hur bakrunden ser ut*/
     width: auto;
     max-width: 1250px;
     margin: auto;
+    border-radius: 15px;
     }
 
 .b { /*detta är vad som styr hur lorem ipsum texten ser ut*/
@@ -42,6 +44,7 @@ body { /*detta är hur bakrunden ser ut*/
     display: none;
     padding:10px;
     max-width: 100%;
+    border-radius: 5px;
    
 }
 .smoke{ /*detta är vad som styr hur bilden på soldier ser ut */
@@ -49,6 +52,7 @@ body { /*detta är hur bakrunden ser ut*/
     align-self: center;
     max-width: 100%;
     height: auto;
+    border-radius: 8px;
 }
 
 .deargod{
@@ -84,7 +88,7 @@ body { /*detta är hur bakrunden ser ut*/
   bottom: 0;
   top: -700px;
   }
-  .button { /*detta är vad som styr hur conga heavy fungerar*/
+  .button { /*detta är vad som styr hur please knappen fungerar*/
     border: none;
     color: white;
     padding: 16px 32px;
@@ -106,6 +110,7 @@ body { /*detta är hur bakrunden ser ut*/
     border: 3px solid #4CAF50;
     max-width: 100%;
     width: auto;
+    border-radius: 10px;
   }
   
   .button1:hover { /*detta är vad som styr hur please knappen fungerar*/
@@ -114,14 +119,15 @@ body { /*detta är hur bakrunden ser ut*/
     max-width: 100%;
     width: auto;
   }
-  .border { /*detta är vad som styr hur please knappen fungerar*/
-    border: 5px #4CAF50;
-    max-width: 100%;
-    width: auto;
-  }
   .me{ /*detta är vad som styr hur ©Lukas Diffner-Persson fungerar*/
     left: 0;
     right: 0;
     text-align: center;
+    border: rgb(134, 134, 134);
+    background-color: #f5f5f5;
+    width: 157px;
+    margin: auto;
+    padding: 5px;
+    border-style: solid;
   }
   
