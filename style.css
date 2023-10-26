@@ -6,6 +6,8 @@ body { /*detta är hur bakrunden ser ut*/
     background-image: url('bilder/pink.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-wrap: break-word;
+    background-attachment: fixed;
 }
 
 .kys { /*detta är vad som styr hur titlen kill yourself ser ut*/
@@ -130,4 +132,16 @@ body { /*detta är hur bakrunden ser ut*/
     padding: 5px;
     border-style: solid;
   }
+  
+  /* Den gör så att något Göms */
+.hide {
+	display:none;
+}
+
+/* Den gör så att om något är gömd så syns den om skärmen är 1500px bred */
+@media only screen and (min-width: 1500px) {
+  .hide {
+    display:initial;
+  }
+}
   
