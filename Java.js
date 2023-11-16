@@ -14,3 +14,5 @@ function text1() {
     document.getElementById('btn1').style.display = 'inline-block';
     document.getElementById('btn2').style.display = 'none';
   }
+
+  

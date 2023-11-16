@@ -34,7 +34,6 @@ body { /*detta är hur bakrunden ser ut*/
     }
 
 .b { /*detta är vad som styr hur lorem ipsum texten ser ut*/
-    width: 600px;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url('bilder/old\ paper2.jpg');
@@ -43,16 +42,16 @@ body { /*detta är hur bakrunden ser ut*/
     font-size: larger;
     font-style: italic;
     text-shadow: white 0 0 5px, 0 0 5px white;
-    display: none;
+
     padding:10px;
-    max-width: 100%;
+    max-width: 600px;
     border-radius: 5px;
    
 }
 .smoke{ /*detta är vad som styr hur bilden på soldier ser ut */
     border: 5px solid rgb(248, 248, 248);
     align-self: center;
-    max-width: 100%;
+    max-width: 97%;
     max-height: 100%;
     height: auto;
     width: 1000px;
