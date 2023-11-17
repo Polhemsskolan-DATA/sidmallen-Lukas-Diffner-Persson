@@ -42,7 +42,7 @@ body { /*detta är hur bakrunden ser ut*/
     font-size: larger;
     font-style: italic;
     text-shadow: white 0 0 5px, 0 0 5px white;
-
+    display: none;
     padding:10px;
     max-width: 600px;
     border-radius: 5px;
@@ -64,13 +64,6 @@ body { /*detta är hur bakrunden ser ut*/
     max-width: 100%;
     width: auto;
 }
-/*.please{
-    background-color: rgb(255, 233, 31);
-    font-size: large;
-    font-family: 'Times New Roman', Times, serif;
-    max-width: 100%;
-   width: auto;
-}*/
 .conga{ /*detta är vad som styr hur conga soldier ser ut*/
   position:relative ;
   left: 950px;
