@@ -8,6 +8,7 @@ body { /*detta är hur bakrunden ser ut*/
     background-size: cover;
     overflow-wrap: break-word;
     background-attachment: fixed;
+    margin: 0;
 }
 
 .kys { /*detta är vad som styr hur titlen kill yourself ser ut*/
@@ -52,7 +53,7 @@ body { /*detta är hur bakrunden ser ut*/
     border: 5px solid rgb(248, 248, 248);
     align-self: center;
     max-width: 97%;
-    max-height: 100%;
+    max-height: 100%; 
     height: auto;
     width: 1000px;
     border-radius: 8px;
