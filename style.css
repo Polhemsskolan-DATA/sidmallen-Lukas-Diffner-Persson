@@ -140,8 +140,21 @@ body { /*detta är hur bakrunden ser ut*/
   }
 }
 
-.topnav {
-  overflow: hidden;
+.kys { /*detta är vad som styr hur titlen kill yourself ser ut**/
+  background-color: rgb(130, 24, 44);
+  color:#f5f5f5;
+  border: 5px solid rgb(196, 8, 86);
+  font-size: larger;
+  text-align: center;
+  width: auto;
+  max-width: 1500px;
+  margin: 5px;
+  border-radius: 15px;
+  position: relative;
+  height: auto;
+}
+
+.kys2 { /*detta är vad som styr hur titlen kill yourself ser ut**/
   background-color: rgb(130, 24, 44);
   color:#f5f5f5;
   border: 5px solid rgb(196, 8, 86);
@@ -151,9 +164,10 @@ body { /*detta är hur bakrunden ser ut*/
   max-width: 1500px;
   margin: auto;
   border-radius: 15px;
-  height: 87px;
+  position: relative;
+  height: auto;
 }
-/**.kys { /*detta är vad som styr hur titlen kill yourself ser ut
+.kys3 { /*detta är vad som styr hur titlen kill yourself ser ut**/
   background-color: rgb(130, 24, 44);
   color:#f5f5f5;
   border: 5px solid rgb(196, 8, 86);
@@ -161,18 +175,25 @@ body { /*detta är hur bakrunden ser ut*/
   text-align: center;
   width: auto;
   max-width: 1500px;
-  margin: auto;
-  border-radius: 15px;}**/
+  margin: 5px;
+  border-radius: 15px;
+  position: relative;
+  height: auto;
+  left: 283px;
+}
+
+
+.topnav {
+  overflow: hidden;
+}
 
 .topnav a {
   float: left;
-  display: block;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  height: 87px;
 }
 
 .topnav a:hover {
@@ -185,9 +206,10 @@ body { /*detta är hur bakrunden ser ut*/
   color: white;
 }
 
-.topnav .icon {
-  display: none;
-}
+
+
+
+
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
