@@ -216,15 +216,15 @@ body { /*detta är hur bakrunden ser ut*/
 }
 
 .topnav .icon {
-  background-color: rgb(255, 255, 255);
-  color:#000000;
+  background-color: rgb(41, 40, 40);
+  color:#ffffff;
   border: 5px solid rgb(196, 8, 86);
   display: none;
   padding: 14px 16px;
   border-radius: 15px;
 }
 
-.ex {
+.fa {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
@@ -235,7 +235,7 @@ body { /*detta är hur bakrunden ser ut*/
 
 
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 423px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
@@ -243,7 +243,7 @@ body { /*detta är hur bakrunden ser ut*/
   }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 423px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
@@ -260,3 +260,33 @@ body { /*detta är hur bakrunden ser ut*/
   .kys3 {display: none;}
 }
 
+
+.Home {
+  border: 5px solid rgb(0, 0, 0);
+  background-color: #ffffff;
+  width: auto;
+  max-width: 1500px;
+  margin: auto;
+  border-radius: 15px;
+}
+.gtfu {
+  border: 5px solid rgb(255, 255, 255);
+  background-color: #000000;
+  color: #ffffff;
+  width: auto;
+  max-width: 520px;
+  margin: auto;
+  border-radius: 15px;
+}
+
+.DONT {
+    background-color: rgb(41, 40, 40);
+    color:#ffffff;
+    border: 5px solid rgb(196, 8, 86);
+    display: block;
+    padding: 14px 16px;
+    border-radius: 15px;
+    margin-top: 5px;
+    max-width: fit-content;
+    margin: auto;
+}
