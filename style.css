@@ -290,3 +290,36 @@ body { /*detta är hur bakrunden ser ut*/
     max-width: fit-content;
     margin: auto;
 }
+.BACK{
+    background-color: rgb(41, 40, 40);
+    color:#ffffff;
+    border: 5px solid rgb(196, 8, 86);
+    padding: 14px 16px;
+    border-radius: 15px;
+    margin-top: 5px;
+    max-width: fit-content;
+    margin: auto;
+    position: fixed;
+    left: 0%;
+    float: inline-start;
+}
+.Nocontact {
+  border: 5px solid rgb(255, 255, 255);
+  background-color: #000000;
+  color: #ffffff;
+  width: auto;
+  max-width: 250px;
+  margin: auto;
+  border-radius: 15px;
+}
+
+.horror{
+  max-width: 100%; 
+  height: auto;
+  margin: auto;
+}
+.gun{
+  max-width: 100%; 
+  height: auto;
+  margin: auto;
+}
